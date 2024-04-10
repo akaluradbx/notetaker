@@ -7,6 +7,7 @@ You will then be able to summarize the raw text into following section using Dat
 4) Highlights Sentiment during the meeting
 5) Generates a sample followup email sumarizing the meeting
 
+![VoiceToText](VoiceToText.jpg)
 
 # Step 0 : Onetime Setup
 
