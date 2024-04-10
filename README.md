@@ -18,8 +18,8 @@ pip install sounddevice numpy whisper torch python-dotenv requests python-docx
 
 update .env with databricks token and databricks hostname
 
-# Step1 : Run this command to capture audio and have the audio be converetd in realtime to text
+# Step1 : Run this command to capture audio and have the audio be converted in realtime to text
 python VoiceToText.py 
 
 # Step2 : Summarize text
-python summarize_to_doc.py <<NOTES FILE NAME>>
+python summarize_to_doc.py "NOTES FILENAME"
