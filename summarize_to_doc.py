@@ -176,6 +176,7 @@ def save_as_docx(data, filename):
         # Add a line break between sections
         doc.add_paragraph()
     doc.save(filename)
+    return filename
 
 def runme(filename):
     audio_file_path = os.getenv("NOTES_DIR") + filename
